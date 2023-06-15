@@ -1,0 +1,322 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.fds{
+    background-image:url(../images/Contactus/cq.jpg);
+    background-size: cover;
+    background-position: 100px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* margin-bottom: 20px; */
+    /* height: 100%; */
+    /* width: 100%; */
+
+}
+
+
+
+    .contactmaindiv{
+        width: auto;
+        height: auto;
+        /* border: 2px solid red; */
+    }
+
+   
+
+    .intro{
+        width: auto;
+        margin-top: 60px;
+        /* border: 2px solid red; */
+
+        
+
+    }
+
+    .intro h1{
+        position: relative;
+        left: 11%;
+        width: 15%;
+        font-size: 40px;
+        color: white;
+        background-color: black;
+        border-radius: 10px;
+        text-align: center;
+        /* border: 2px solid red; */
+
+        
+    }
+
+
+   
+
+    .contactmainsubdiv{
+        display: flex;
+        justify-content: space-between;
+        height: auto;
+        width: auto;
+        align-items: center;
+        /* border:  2px solid darkblue; */
+        margin-top: 50px;
+        margin-left: 50px;
+        flex-wrap: wrap;
+        /* border: 2px solid red; */
+
+        
+    }
+
+    .contactdetails{
+        position: relative;
+        padding: 20px;
+        height: 35vh;
+        border-radius: 10px;
+        background-color: black;
+        opacity: 0.9;
+        margin-right: 5px;
+    }
+
+    .inputmain{
+        width: 30%;
+        height: 42vh;
+        padding: 20px;
+        background-color: black; 
+        border-radius: 10px;
+        opacity: 0.9;
+        margin-bottom: 10px;
+    }
+
+    .inputbox{
+        padding: 10px;
+        position: relative;
+    }
+
+    .inputbox input{
+        font-family: 'Times New Roman', Times, serif;
+        border-radius: 10px;
+        padding: 10px;
+        width: 95%;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .inputbox textarea{
+        font-family: 'Times New Roman', Times, serif;
+        border-radius: 10px;
+        padding: 10px;
+        width: 95%;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .inputbox span{
+        position: absolute;
+        left: 0;
+        bottom: 15px;
+        font-size: 16px;
+        margin: 10px 0px;
+        margin-left: 15px;
+        pointer-events: none;
+        transition: 0.5s;
+        color: black;
+    }
+
+    .inputbox input:focus ~ span,
+    .inputbox input:valid ~ span
+    .inputbox textarea:focus ~ span,
+    .inputbox textarea:valid ~ span
+
+    {
+        color: #e91e63;
+        font-size: 14px;
+        transform: translateY(-33px);
+    }
+
+    .inputbox input:focus ~ .tarea, .inputbox input:valid ~ span .inputbox textarea:focus ~ .tarea, .inputbox textarea:valid ~ .tarea {
+        color: #e91e63;
+        font-size: 14px;
+        transform: translateY(-54px);
+    }
+
+   
+
+    .inputbox input[type="submit"]{
+        width: 100px;
+        background-color: black;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+        font-size: 18px;
+        border: 1px solid white;
+    }
+
+    .inputbox input:hover[type="submit"]{
+        background-color: white;
+        color: black;
+    }
+
+    .address{
+        height: 10vh;
+    }
+
+    .address p{
+        line-height: 25px;
+    }
+
+    .phone{
+        margin-top: 25px;
+        height: 10vh;
+    }
+
+    .dd{
+        display: flex;
+        width: 50vh;
+    }
+
+    .dd i{
+        background-color: black;
+        color: gold;
+        width: auto;
+        cursor: pointer;
+        padding: 10px;
+        margin-right: 10px;
+        border-radius: 30px;
+        border: 2px solid blue;
+    }
+
+    .hh3{
+        color: gold;
+        background-color: black;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    .cdp{
+        margin-top: 5px;
+        cursor: pointer;
+        width: 45vh;
+        text-align: center;
+        color: white;
+        font-weight: 700;
+    }
+
+
+    @media screen and (max-width:1564px){
+        .phone{
+            margin-top: 70px;
+            margin-bottom: 10px;
+        }
+    }
+
+   
+    @media screen and (max-width: 1367px){
+    
+        .intro h1{
+            left: 6%;
+            width: 30%;
+        }
+
+        .contactdetails{
+            padding: 20px;
+            height: 45vh;
+        }
+
+        .contactmaindiv{
+            /* flex-direction: column; */
+        }
+    
+    }
+   
+    @media screen and (max-width: 1270px){
+        .intro{
+            width: auto;
+            margin-top: 20px;
+        }
+    
+        .intro h1{
+            position: relative;
+            left: 12%;
+            width: 15%;
+            font-size: 40px;
+            color: white;
+            background-color: black;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 35px;
+        }   
+    }
+
+
+    @media screen and (max-width:1108px){
+        .intro h1{
+            left: 6%;
+            width: 32%;
+        }
+    }
+
+    @media screen and (max-width:1025px){
+
+        .intro h1{
+            left: 6%;
+            width: 30%;
+        }
+
+        .contactdetails{
+            padding: 20px;
+            height: 45vh;
+        }
+    
+    }
+
+   
+    @media screen and (max-width:912px){
+        .contactmaindiv{
+            flex-direction: column;
+        }
+    }
+
+    @media screen and (max-width:800px){
+        
+        .contactmainsubdiv{
+            flex-wrap: wrap;
+            margin-left: 10px;
+            margin-right: 10px;
+            width: auto;
+        }
+        
+
+        .inputmain{
+            width: 90%;
+        }
+
+        .cdp{
+            width: 90%;
+        }
+
+        .contactdetails{
+            width: auto;
+            height: auto;
+            /* border: 2px solid firebrick; */
+        }
+
+        .dd{
+            width: auto;
+        }
+
+        .intro h1{
+            width: 70%;
+            left: 15%;
+        }
+
+        .inputmain{
+            height: auto;
+        }
+
+    
+    }
+
+   
+
+
+  

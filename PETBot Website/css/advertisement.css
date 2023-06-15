@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.adh1{
+    font-family: 'Great Vibes', cursive;
+    font-size: 72px;
+    width: auto;
+    text-align: center;
+}
+
+.admainsub{
+    display: flex;
+    justify-content: space-around;
+}
+
+.policies{
+    width: 60%;
+    line-height: 30px;
+}
+
+p{
+    margin-bottom: 10px;
+}
+
+.adimgs{
+    width: 30%;
+}
+
+.adimg1 img{
+    width: 100%;
+}
+
+.adimg2 img{
+    width: 100%;
+}
+
+.adimg3 img{
+    width: 100%;
+}
+
+.adimg4 img{
+    width: 100%;
+}
+
+.adimgsresponsive{
+    display: none;
+}
+
+
+@media screen and (max-width:821px){
+
+    .policies{
+        width: 90%;
+    }
+    
+    .admainsub{
+        justify-content: center;
+    }
+    p{
+        font-size: 12px;
+    }
+    
+    
+    .adimgs{
+        display: none;
+    }
+    
+    .adimgsresponsive{
+        display: block;
+        width: 100%;
+        height: 42vh;
+    }
+    
+    .adimgsresponsive img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:800px){
+.policies{
+    width: 90%;
+}
+
+.admainsub{
+    justify-content: center;
+}
+p{
+    font-size: 12px;
+}
+
+
+.adimgs{
+    display: none;
+}
+
+.adimgsresponsive{
+    display: block;
+    width: 100%;
+    height: 28vh;
+}
+
+.adimgsresponsive img{
+    width: 100%;
+}
+
+}
+
+@media screen and (max-width:769px){
+    .adimgsresponsive{
+        height: 48vh;
+    }
+}
+
+@media screen and (max-width:541px){
+    .adimgsresponsive{
+        height: 44vh;
+    }
+}
+
+@media screen and (max-width:416px){
+    .adimgsresponsive{
+        height: 27vh;
+    }
+}
+
+@media screen and (max-width:413px){
+    .adimgsresponsive{
+        height: 27vh;
+    }
+}
+
+@media screen and (max-width:376px){
+    .adimgsresponsive{
+        height: 35vh;
+    }
+}
+
+@media screen and (max-width:281px){
+    .adh1{
+        font-size: 35px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .adimgsresponsive{
+        height: 26vh;
+    }
+}

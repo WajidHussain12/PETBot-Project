@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0;
+    font-size: 18px;
+}
+
+.sitemapbody{ 
+    background-color: black;
+    
+
+}
+
+.sitemapimg1{
+    float: right;
+    height: 90vh;
+    animation: transitionIn1 1s;
+}
+
+
+.sitemapdiv{
+    position: relative;
+    top: 120px;
+    bottom: 100vh;
+    animation: transitionIn1 1s;
+    margin-left: 20px;
+}
+
+.sitemapdiv ul {
+    list-style: none;
+}
+
+.sitemapdiv ul li a{
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    margin-bottom:5px ;
+    
+}
+
+.sitemapdiv2 a{
+    display: block;
+    border: 2px solid purple;
+    width: 10%;
+    text-align: center;
+}
+
+.sitemapdiv2 a:hover{
+  background-color: purple;
+}
+
+.sitemapdiv3 a{
+    display: inline-block;
+    /* width: auto; */
+}
+
+.sitemapdiv3 a:hover{
+    color: purple;
+}
+
+.sitemapdiv4 a{
+    display: block;
+    border: 2px solid purple;
+    width: 10%;
+    text-align: center;
+}
+
+.sitemapdiv4 a:hover{
+    background-color: purple;
+}
+
+.sitemapdiv5 a{
+    border: 2px solid white;
+    width: 50%;
+}
+
+.sitemapdiv6 a{
+    border: 2px solid white;
+    width: 10%;
+}
+
+.sitemaph1{
+    border: 2px solid purple;
+    color: white;
+    top: 110px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 7%;
+    position: absolute;
+    left: 20px;
+    animation: transitionIn1 1s;
+
+}
+
+.sitemapdetails summary{
+    border: 2px solid purple;
+    width: 145px;
+    margin-bottom: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.cat:hover{
+    color: purple;
+}
+
+
+@keyframes transitionIn1 {
+    from{
+        opacity: 0;
+        transform: rotateX(0deg);
+        transform: scaleY(1.1);
+    }
+
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+        transform: scaleY(1);
+    }
+}
+

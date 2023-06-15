@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+}
+
+.mainheading {
+    width: 80%;
+    margin: 15px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    text-align: center;
+    font-size: 72px;
+    font-family: 'Great Vibes', cursive;
+}
+
+.img-gallery {
+    width: 80%;
+    margin: 50px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 90px;
+    /* z-index: 0; */
+}
+
+.img-gallery img {
+    width: 100%;
+    cursor: pointer;
+    /* z-index: -1; */
+
+}
+
+.img-gallery img:hover {
+    transform: scale(0.8);
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    /* box-shadow: 0 32px 75px  rgba(68,77,136,0.2); */
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 1);
+   transition: 1s ease-in;
+}
+
+ 
+.full-img {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.full-img img {
+    width: 90%;
+    max-width: 500px;
+}
+
+.full-img span {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.border{
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.currency{
+    font-weight: bolder;
+    font-size: 30px;
+    background-color: rgb(231, 193, 124);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.detail{
+    background-color: rgb(231, 193, 124);
+    margin-bottom: 10px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.pdfdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pdfdiv p{
+    font-weight: 700;
+    align-self: flex-end;
+}
+
+.pdf{
+    width: 10%;
+    margin-left: 5px;
+    margin-top: 10px;
+
+}
+
+.pdf img{
+    width: 100%;
+}

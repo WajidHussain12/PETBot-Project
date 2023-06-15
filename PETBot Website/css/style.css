@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.mainimg img{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.CCH1{
+    text-align: center;
+    border: 2px solid black;
+}
+
+.CCH2{
+    text-align: center;
+}

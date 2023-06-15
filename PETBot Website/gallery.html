@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petbot Gallery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/0a025159fa.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/footerline.css">
+  <link rel="shortcut icon" href="images/Favicon Img/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+
+    <header id="header"></header>
+
+
+    <h1 class="mainheading">Gallery</h1>
+
+    <div class="full-img" id="fullImgBox">
+        <img src="Gallery Images/01.png" id="fullImg">
+        <span onclick="closeFullImg()">X</span>
+    </div>
+
+    <div class="img-gallery">
+        <img src="images/Gallery Images/01.png" onclick="openFullImg(this.src)">
+        <img src="images/Gallery Images/02.png" onclick="openFullImg(this.src)">
+        <img src="images/Gallery Images/03.png" onclick="openFullImg(this.src)">
+        <img src="images/Gallery Images/04.png" onclick="openFullImg(this.src)">
+        <img src="images/Gallery Images/05.png" onclick="openFullImg(this.src)">
+        <img src="images/Gallery Images/06.png" onclick="openFullImg(this.src)">
+
+        <!-- Plasticbottle -->
+        <img src="images/Plastic Images/p1.png" onclick="openFullImg(this.src)">
+        <img src="images/Plastic Images/p2.png" onclick="openFullImg(this.src)">
+        <img src="images/Plastic Images/p3.png" onclick="openFullImg(this.src)">
+        <img src="images/Plastic Images/p4.png" onclick="openFullImg(this.src)">
+        <img src="images/Plastic Images/p5.png" onclick="openFullImg(this.src)">
+        <img src="images/Plastic Images/p6.png" onclick="openFullImg(this.src)">
+
+        <!-- Gymbottle -->
+        <img src="images/Gym Images/g6.jpg" onclick="openFullImg(this.src)">
+        <img src="images/Gym Images/g2.jpg" onclick="openFullImg(this.src)">
+        <img src="images/Gym Images/g3.jpg" onclick="openFullImg(this.src)">
+        <img src="images/Gym Images/g4.jpg" onclick="openFullImg(this.src)">
+        <img src="images/Gym Images/g1.jpg" onclick="openFullImg(this.src)">
+        <img src="images/Gym Images/g5.jpg" onclick="openFullImg(this.src)">
+
+        <!-- ceramicbottle -->
+        <img src="images/Ceramic Images/c1.jpg" onclick="openFullImg(this.src)">
+        <img src="images/Ceramic Images/c2.jpg" onclick="openFullImg(this.src)">
+        <img src="images/Ceramic Images/c3.jpg" onclick="openFullImg(this.src)">
+        <img src="images/Ceramic Images/c4.jpg" onclick="openFullImg(this.src)">
+        <img src="images/Ceramic Images/c5.jpg" onclick="openFullImg(this.src)">
+        <img src="images/Ceramic Images/c6.jpg" onclick="openFullImg(this.src)">
+
+        <!-- Glassbottle -->
+        <img src="images/Glass Images/g1.jpg" onclick="openFullImg(this.src)">
+        <img src="images/Glass Images/g2.jpg" onclick="openFullImg(this.src)">
+        <img src="images/Glass Images/g3.jpg" onclick="openFullImg(this.src)">
+        <img src="images/Glass Images/g4.jpg" onclick="openFullImg(this.src)">
+        <img src="images/Glass Images/g5.jpg" onclick="openFullImg(this.src)">
+        <img src="images/Glass Images/g6.jpg" onclick="openFullImg(this.src)">
+
+        <!-- Steelbottle -->
+        <img src="images/Steel Bottle Img/n1.png" onclick="openFullImg(this.src)">
+        <img src="images/Steel Bottle Img/n2.png" onclick="openFullImg(this.src)">
+        <img src="images/Steel Bottle Img/n3.png" onclick="openFullImg(this.src)">
+        <img src="images/Steel Bottle Img/n4.png" onclick="openFullImg(this.src)">
+        <img src="images/Steel Bottle Img/steel1.jpg" onclick="openFullImg(this.src)">
+        <img src="images/Steel Bottle Img/steel2.jpg" onclick="openFullImg(this.src)">
+
+        <!-- Milkbottle -->
+        <img src="images/Milk Images/m1.jpg" onclick="openFullImg(this.src)">
+        <img src="images/Milk Images/m2.jpg" onclick="openFullImg(this.src)">
+        <img src="images/Milk Images/m3.jpg" onclick="openFullImg(this.src)">
+        <img src="images/Milk Images/m4.jpg" onclick="openFullImg(this.src)">
+        <img src="images/Milk Images/m5.jpg" onclick="openFullImg(this.src)">
+        <img src="images/Milk Images/m6.jpg" onclick="openFullImg(this.src)">
+
+
+    </div>
+
+    <div id="footerline"></div>
+
+    <footer id="footer"></footer>
+
+
+    <script src="js/gallery.js"></script>
+    <script src="js/header.js"></script>
+<script src="js/footerline.js"></script>
+<script src="js/footer.js"></script>
+<script src="js/script.js"></script>
+</body>
+
+</html>
+
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+
+
+
+<script>
+  $(document).ready(function(){
+
+    $("#gallery").css("color","red")
+  })
+</script>

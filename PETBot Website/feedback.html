@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comments, Feedback, and Ratings about Sellers - Petbot Customer Service</title>
+  <script src="https://kit.fontawesome.com/0a025159fa.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/feedback.css">
+    <link rel="stylesheet" href="css/footerline.css">
+    <link rel="stylesheet" href="css/footer.css">
+  <link rel="shortcut icon" href="images/Favicon Img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+  <header id="header"></header>
+
+
+    <div class="image">
+
+        <div class="fdmain">
+            <div class="fdsubmain">
+
+
+                <form action="" name="myForm" onsubmit="return validateForm()" method="post">
+
+                    <h1>Your Feedback is Important To Us</h1>
+                    <h2>It's Quick & Easy</h2>
+                    <hr class="hr">
+
+                    <!-- NAME -->
+
+                    <div class="formdesign" id="name">
+                        <input placeholder="Name" type="text" name="fname" required>
+                        <b>
+                            <p class="formerror"></p>
+                        </b>
+                    </div>
+
+                    <!-- Email -->
+
+                    <div class="formdesign" id="email">
+                        <input placeholder="Phone Number or Email address" type="email" name="femail" required>
+                        <b>
+                            <p class="formerror"></p>
+                        </b>
+                    </div>
+
+                    <!-- PHONE -->
+
+                    <div class="formdesign" id="phone">
+                        <input placeholder="Phone Number" type="phone" name="fphone" required>
+                        <b>
+                            <p class="formerror"></p>
+                        </b>
+                    </div>
+
+                    <!-- PASSWORD -->
+
+                    <div class="formdesign" id="pass">
+                        <input placeholder="Password" type="password" name="fpass" required>
+                        <b>
+                            <p class="formerror"></p>
+                        </b>
+                    </div>
+
+                    <!-- CONFIRM PASSWORD -->
+
+                    <div class="formdesign" id="cpass">
+                        <input placeholder="Confirm Password" type="password" name="fcpass" required>
+                        <b>
+                            <p class="formerror"></p>
+                        </b>
+                    </div>
+
+                    <!-- msg -->
+                    <div class="msg">
+                        <p>Type Your Message Here</p>
+                    </div>
+
+
+                    <!-- Text Area -->
+                    <textarea class="fdtextarea" required="required"></textarea>
+
+
+                    <!-- POLICY -->
+
+                    <p class="policy">People who use our service may have uploaded your contact information to This
+                        Site. <a>Learn more.</a></p>
+                    <p class="policy">By clicking Submit, you agree to our <a href="#">Terms, Privacy Policy </a> and <a
+                            href="#">Cookies Policy</a>. You may receive SMS notifications from us and can opt out at
+                        any
+                        time.</p>
+
+
+
+                    <!-- SUBMIT BUTTON -->
+
+                    <input class="but" type="submit" value="Submit">
+
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div id="footerline"></div>
+  
+  <footer id="footer"></footer>
+
+
+
+
+  <script src="js/header.js"></script>
+    <script src="js/feedback.js"></script>
+    <script src="js/footerline.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
+
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+
+
+
+<script>
+  $(document).ready(function(){
+
+    $("#feedback").css("color","red")
+  })
+</script>

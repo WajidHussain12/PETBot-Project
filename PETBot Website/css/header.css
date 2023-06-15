@@ -1,0 +1,403 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    position: sticky;
+    left: 0;
+    right: 0;
+    top: 0  ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    z-index: 1;
+}
+
+.l2 {
+    display: none;
+}
+
+.headerdivlogo {
+    display: flex;
+    justify-content: space-around;
+    width: 12%;
+}
+
+.headerdivnav {
+    width: 80%;
+}
+
+
+.headermainnav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.headermainnav ul li {
+    list-style: none;
+    border: 3px solid white;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+.headermainnav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.headermainnav ul li a:hover {
+    color: wheat;
+    text-decoration: none;
+    padding: 15px;
+    cursor: pointer;
+}
+
+
+
+/* BottleList */
+
+
+.headermainnav ul li ul {
+    position: absolute;
+    flex-direction: column;
+    text-align: center;
+    width: auto;
+    top: 85%;
+    left: 29%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    display: none;
+    border: none;
+    height: auto;
+    padding-top: 10px;
+}
+
+/* ( Bottle List Border) */
+
+.headermainnav ul li ul li {
+    margin-bottom: 10px;
+    border: none;
+}
+
+
+.headermainnav li:hover>ul {
+    display: block;
+    animation-name: fadeIn;
+    animation-duration: 0.1s;
+}
+
+@keyframes fadeIn {
+    from{
+        height: 0px;
+    }
+    to{
+        height: 407px;
+    }
+}
+
+.headermainnav ul li ul li a:hover {
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+}
+
+.mainimg img {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.headermainnav ul li ul li a span{
+    color: gold;
+}
+
+
+
+
+
+
+
+
+/* Responsive */
+
+@media screen and (max-width:1615px) {
+    .headermainnav ul li ul {
+    left: 28.5%;
+
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .headermainnav ul li ul {
+    top: 86%;
+    left: 28%;
+ }
+}
+
+@media screen and (max-width:1282px) {
+    .headermainnav ul li ul {
+    top: 88%;
+    left: 28%;
+ }
+}
+
+@media screen and (max-width:1280px) {
+    .headermainnav ul li ul {
+    left: 27.8%;
+
+    }
+}
+
+@media screen and (max-width:1206px) {
+    .headermainnav ul li ul {
+    top: 91%;
+    left: 27%;
+ }
+}
+
+@media screen and (max-width:1190px) {
+    header {
+        flex-direction: column;
+        position: static;
+    }
+
+    .headerdivlogo {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .headerdivlogo img {
+        width: 25%;
+    }
+
+    .l1 {
+        width: 30%;
+    }
+
+    .l2 {
+        background-image: url(/images/hamcopy3.png);
+        background-position: center;
+        background-size: cover;
+        display: block;
+        width: 5%;
+        height: 9vh;
+        float: right;
+        /* border: 2px solid green; */
+        /* background-color: grey; */
+        /* color: red;  */
+        background-repeat: no-repeat;
+        margin-top: 6px;
+        margin-right: 16px;
+    }
+
+
+
+    .headerdivnav {
+        width: 100%;
+        display: none;
+    }
+    
+    .headermainnav ul {
+        flex-direction: column;
+        line-height: 30px;
+        align-items: flex-start;
+    }
+
+    .headermainnav ul li {
+        border: none;
+        padding: 0px;
+        text-align: center;
+        text-align: end;
+        float: left;
+    }
+
+    .headermainnav ul li:hover{
+        float: left;
+    }
+
+    .headermainnav ul li:hover {
+        border: none;
+    }
+
+
+    .headermainnav ul li a:hover {
+        color: red;
+        text-decoration: none; 
+    }
+
+    .headermainnav ul li a{
+        float: left;
+    }
+
+
+
+
+    /* BottleList */
+
+
+    .headermainnav ul li ul {
+        position: relative;
+        color: white;
+        left: 0%;
+        right: 0%;
+        width: 20%;
+        border: none;
+    }
+
+
+    .headermainnav ul li ul li {
+        width: auto;
+        text-align: center;
+        background-color: none;
+        width: 40vh;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .headermainnav ul li ul li a:hover {
+         
+        border-radius: 0px;
+        text-decoration: none;
+        color: red;
+        background-color: rgba(255, 255, 255, 0);
+        background-color: none;
+        margin-top: 10px;
+    }
+
+    .headermainnav li:hover>ul {
+        animation-name: fadeIn;
+        animation-duration: 0s;
+    }
+    
+    @keyframes fadeIn {
+        from{
+            height: 0px;
+        }
+        to{
+            height: 0px;
+        }
+    }
+    
+}
+
+
+@media screen and (max-width:1190px) {
+    .l2 {
+        width: 7%;
+    }
+}
+
+@media screen and (max-width:1025px) {
+    .l2 {
+        width: 4%;
+        height: 9vh;
+        margin-top: 8px;
+    }
+}
+
+@media screen and (max-width:913px) {
+    .l2 {
+        width: 5%;
+        height: 4vh;
+        margin-top: 6px;
+    }
+}
+
+@media screen and (max-width:821px) {
+    .l2 {
+        width: 5%;
+        height: 4vh;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width:740px) {
+    .l2 {
+        width: 8%;
+    }
+}
+
+@media screen and (max-width:769px) {
+    .l2 {
+        width: 5%;
+        height: 4vh;
+        margin-top: 16px;
+    }
+}
+
+@media screen and (max-width:622px) {
+    .l2 {
+        width: 6%;
+        height: 5vh;
+        margin-top: 11px;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .l2 {
+        margin-top: 19px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .l2 {
+        width: 8%;
+        height: 7vh;
+        margin-top: 11px;
+    }
+}
+
+@media screen and (max-width:415px) {
+    .l2 {
+        width: 8%;
+        height: 5vh;
+        margin-top: 12px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .l2 {
+        width: 9%;
+    }
+}
+
+@media screen and (max-width:391px) {
+    .l2 {
+        width: 10%;
+        height: 6vh;
+        margin-top: 9px;
+    }
+}
+
+@media screen and (max-width:376px) {
+    .l2 {
+        width: 10%;
+        height: 6vh;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width:340px) {
+    .l2 {
+        width: 10%;
+        height: 7vh;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width:281px) {
+    .l2 {
+        width: 10%;
+        height: 5vh;
+        margin-top: 11px;
+        margin-right: 7px;
+    }
+}
+ 

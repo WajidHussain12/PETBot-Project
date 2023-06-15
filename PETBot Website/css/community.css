@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.communityimg{
+  animation: transitionIn 2s;
+  height: 98vh;
+}
+
+
+@keyframes transitionIn {
+    from{
+        opacity: 0;
+        transform: rotateX(40deg);
+    }
+
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+@keyframes transitionIn1 {
+    from{
+        opacity: 0;
+        transform: rotateX(0deg);
+        transform: scaleY(1.1);
+    }
+
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+        transform: scaleY(1);
+    }
+}
+
+@keyframes transitionIn2 {
+    from{
+        opacity: 0;
+        transform: rotateX(360deg);
+    }
+
+    to{
+        opacity: 1;
+        transform: rotateX(-360deg);
+    }
+}
+
+.communityh1{
+    position: absolute;
+    top: 100px;
+    left: 120px;
+    font-family: sans-serif;
+    animation: transitionIn1 2s;
+    color: purple;
+}
+
+.communityp{
+    position: absolute;
+    top: 150px;
+    left: 40px;
+    width: 30%;
+    text-align: center;
+    text-align: justify;
+    line-height: 27px;
+    font-family:sans-serif;
+    animation: transitionIn1 2s;
+}
+
+.communityp2{
+    position: absolute;
+    top: 320px;
+    left: 40px;
+    width: 30%;
+    text-align: center;
+    text-align: justify;
+    line-height: 27px;
+    font-family:sans-serif;
+    animation: transitionIn1 2s;
+}
+
+.communityp3{
+    position: absolute;
+    top: 430px;
+    left: 30px;
+    width: 30%;
+    text-align: center;
+    text-align: justify;
+    line-height: 27px;
+    font-family:sans-serif;
+    animation: transitionIn1 2s;
+    font-size: larger;
+}
+
+.communityp4{
+    position: absolute;
+    top: 430px;
+    left: 305px;
+    width: 30%;
+    text-align: center;
+    text-align: justify;
+    line-height: 27px;
+    font-family:sans-serif;
+    animation: transitionIn1 2s;
+    font-size: larger;
+}
+
+.communityp5{
+    position: absolute;
+    top: 580px;
+    left: 140px;
+    width: 30%;
+    text-align: center;
+    text-align: justify;
+    line-height: 27px;
+    font-family:sans-serif;
+    animation: transitionIn1 2s;
+    font-size: larger;
+}
+
+
+.communityh2{
+    position: absolute;
+    top: 450px;
+    left: 100px;
+    font-family: sans-serif;
+    animation: transitionIn2 1s;
+    color: purple;
+}
+
+.communityh3{
+    position: absolute;
+    top: 450px;
+    left: 330px;
+    font-family: sans-serif;
+    animation: transitionIn2 1s;
+    color: purple;
+}
+
+.communityh4{
+    position: absolute;
+    top: 600px;
+    left: 230px;
+    font-family: sans-serif;
+    animation: transitionIn2 1s;
+    color: purple;
+}
+
+@media screen and (max-width:1417px) {
+    .communityp{
+        font-size: small;
+    }
+
+    .communityp2{
+        font-size: small;
+    }
+}
+
+@media screen and (max-width:1125px) {
+    .communityp{
+        left: 10px;
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .communityp2{
+        left: 10px;
+        font-size: small;
+        font-size: 10px;
+        line-height: 15px;
+
+    }
+
+    .communityh1{
+        left: 20px;
+        font-size: large;
+    }
+    
+    
+.communityh2{
+   left: 50px;
+   font-size: 20px;
+}
+
+.communityh3{
+    left: 200px;
+    font-size: 20px;
+}
+
+.communityh4{
+    top: 525px;
+    left: 120px;
+   font-size: 20px;
+}
+
+.communityp3{
+    left: 10px;
+    font-size: 12px;
+}
+
+.communityp4{
+    left: 190px;
+    font-size: 12px;
+}
+
+.communityp5{
+    top: 505px;
+    left: 70px;
+    font-size: 12px;
+}
+
+}
+
+@media screen and (max-width:700px) {
+    .communityimg{
+        width: 650px;
+        height: 550px;
+    }
+    
+}
+
+@media screen and (max-width:485px) {
+    .communityp{
+        font-size: 8px;
+        line-height: 12px;
+    }
+    .communityp2{
+        font-size: 8px;
+        line-height: 12px;
+    }
+    .communityimg{
+        width: 500px;
+        height: 450px;
+    }
+
+    .communityh2{
+        left: 140px;
+    }
+
+    .communityh3{
+        left: 300px;
+    }
+
+    .communityh4{
+        top: 550px;
+        left: 230px;
+    }
+    
+    .communityp3{
+        left: 90px;
+        font-size: 11px;
+    }
+
+    .communityp4{
+        top: 430px;
+        left: 290px;
+        font-size: 11px;
+    }
+
+    .communityp5{
+        top: 530px;
+        left: 180px;
+        font-size: 11px;
+    }
+}
